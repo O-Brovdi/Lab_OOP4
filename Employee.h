@@ -38,6 +38,7 @@ public:
     Developer(string name, int id, double salary, string lang);
     void Work() override;
     void SetLanguage(string lang);
+    void SetLanguage(string lang, int experience);
 };
 
 
