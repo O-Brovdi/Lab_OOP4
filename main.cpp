@@ -13,7 +13,7 @@ int main() {
     e3->Work();
     e4->Work();
 
-    Developer* dev = new Developer("Oleg", 105, 4500, "C++");
+    Developer* dev = new Developer("Roman", 105, 4500, "C++");
     dev->SetLanguage("Java");
     dev->SetLanguage("Python", 3);
     delete dev;
